@@ -23,8 +23,8 @@ for i in range(0,9835):
 
 frequent = []     #Temporary list to store frequent itemsets
 candidate = []    #Temporary list toStore candidate itemsets during apriori
-support = 0.04    #minimum support 
-confidence = 0.3  #minimum confidence
+support = 0.1   #minimum support 
+confidence = 0.7  #minimum confidence
 
 for key in dic.keys():
     candidate.append(key)
@@ -71,9 +71,6 @@ frequent_itemsets = [] #Stores all frequent itemsets
 for i in range(0,len(frequent)):
     for j in range(0,len(frequent[i])):
         frequent_itemsets.append(frequent[i][j])
-        
-#for i in range(0,len(frequent_itemsets)):
-#    print(frequent_itemsets[i])
 
 maximal_frequent_itemsets = [] #Stores maximal frequent itemsets
 closed_frequent_itemsets = []  #Stores close frequent itemsets
@@ -123,7 +120,7 @@ for i in range(0,len(closed_frequent_itemsets)):
                 antecedent.append(ant)
                 consequent.append(con)
                 
-for i in range(len(antecedent)):
-    print(antecedent[i],'->',consequent[i])
+#for i in range(len(antecedent)):
+#    print(antecedent[i],'->',consequent[i])
     
-    
+  
