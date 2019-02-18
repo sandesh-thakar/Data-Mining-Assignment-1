@@ -1,0 +1,36 @@
+{'rice'} --> {'whole milk'}
+{'margarine', 'domestic eggs'} --> {'whole milk'}
+{'tropical fruit', 'hygiene articles'} --> {'whole milk'}
+{'tropical fruit', 'domestic eggs'} --> {'whole milk'}
+{'butter', 'tropical fruit'} --> {'whole milk'}
+{'curd', 'tropical fruit'} --> {'whole milk'}
+{'yogurt', 'butter'} --> {'whole milk'}
+{'hard cheese', 'yogurt'} --> {'whole milk'}
+{'pip fruit', 'butter'} --> {'whole milk'}
+{'pip fruit', 'curd'} --> {'whole milk'}
+{'pip fruit', 'whipped/sour cream'} --> {'whole milk'}
+{'pip fruit', 'domestic eggs'} --> {'whole milk'}
+{'butter', 'curd'} --> {'whole milk'}
+{'butter', 'root vegetables'} --> {'whole milk'}
+{'butter', 'domestic eggs'} --> {'whole milk'}
+{'bottled water', 'butter'} --> {'whole milk'}
+{'curd', 'domestic eggs'} --> {'whole milk'}
+{'whipped/sour cream', 'butter'} --> {'whole milk'}
+{'oil', 'root vegetables'} --> {'whole milk'}
+{'pip fruit', 'whipped/sour cream'} --> {'other vegetables'}
+{'onions', 'root vegetables'} --> {'other vegetables'}
+{'citrus fruit', 'tropical fruit', 'root vegetables'} --> {'other vegetables'}
+{'citrus fruit', 'yogurt', 'other vegetables'} --> {'whole milk'}
+{'citrus fruit', 'whole milk', 'root vegetables'} --> {'other vegetables'}
+{'yogurt', 'tropical fruit', 'root vegetables'} --> {'other vegetables'}
+{'whipped/sour cream', 'yogurt', 'tropical fruit'} --> {'whole milk'}
+{'fruit/vegetable juice', 'yogurt', 'other vegetables'} --> {'whole milk'}
+{'yogurt', 'other vegetables', 'pastry'} --> {'whole milk'}
+{'root vegetables', 'yogurt', 'other vegetables'} --> {'whole milk'}
+{'pip fruit', 'yogurt', 'other vegetables'} --> {'whole milk'}
+{'butter', 'yogurt', 'other vegetables'} --> {'whole milk'}
+{'rolls/buns', 'yogurt', 'root vegetables'} --> {'whole milk'}
+{'pip fruit', 'whole milk', 'root vegetables'} --> {'other vegetables'}
+{'pip fruit', 'root vegetables', 'other vegetables'} --> {'whole milk'}
+{'root vegetables', 'butter', 'other vegetables'} --> {'whole milk'}
+{'whipped/sour cream', 'root vegetables', 'other vegetables'} --> {'whole milk'}
