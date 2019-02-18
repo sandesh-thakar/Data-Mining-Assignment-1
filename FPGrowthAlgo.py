@@ -64,7 +64,7 @@ def dfs(node,current_list,support_count: int,total_elements: float):
             temp_list.sort()
             tmp = tuple(current_list)
             if tmp in frequent_itemsets:
-                frequent_itemsets[tmp] = max(frequent_itemsets[tmp],support_value)
+                frequent_itemsets[tmp] = frequent_itemsets[tmp]+support_value
             else:
                 frequent_itemsets[tmp] = support_value
                 
