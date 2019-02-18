@@ -1,0 +1,3 @@
+{'yogurt'} --> {'whole milk'}
+{'other vegetables'} --> {'whole milk'}
+{'rolls/buns'} --> {'whole milk'}

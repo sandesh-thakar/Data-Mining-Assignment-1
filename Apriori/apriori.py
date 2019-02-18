@@ -23,8 +23,8 @@ for i in range(0,9835):
 
 frequent = []     #Temporary list to store frequent itemsets
 candidate = []    #Temporary list toStore candidate itemsets during apriori
-support = 0.1   #minimum support 
-confidence = 0.7  #minimum confidence
+support = 0.004   #minimum support 
+confidence = 0.6  #minimum confidence
 
 for key in dic.keys():
     candidate.append(key)
@@ -100,8 +100,7 @@ for i in range(0,len(frequent_itemsets)):
 
     if(flag==1):
         closed_frequent_itemsets.append(frequent_itemsets[i])
-#for i in range(0,len(maximal_frequent_itemsets)):
-#    print(maximal_frequent_itemsets[i])
+
 
 antecedent = [] #Stores the antecendent of the rules
 consequent = [] #Stoes the consequent of the rules
@@ -119,8 +118,12 @@ for i in range(0,len(closed_frequent_itemsets)):
             if(dic[closed_frequent_itemsets[i]]/dic[ant] > confidence):
                 antecedent.append(ant)
                 consequent.append(con)
-                
-#for i in range(len(antecedent)):
-#    print(antecedent[i],'->',consequent[i])
     
+f = open("Assn_Rules_sup=0.004_conf=0.6.txt","w")            
+
+for i in range(0,len(antecedent)):
+    f.write(str(set(antecedent[i]))+' --> '+str(set(consequent[i])))
+    f.write('\n')
+    
+f.close()
   

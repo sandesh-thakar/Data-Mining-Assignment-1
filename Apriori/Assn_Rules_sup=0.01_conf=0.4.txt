@@ -1,0 +1,62 @@
+{'margarine'} --> {'whole milk'}
+{'tropical fruit'} --> {'whole milk'}
+{'yogurt'} --> {'whole milk'}
+{'cream cheese'} --> {'whole milk'}
+{'butter'} --> {'whole milk'}
+{'white bread'} --> {'whole milk'}
+{'curd'} --> {'whole milk'}
+{'beef'} --> {'whole milk'}
+{'chicken'} --> {'whole milk'}
+{'sugar'} --> {'whole milk'}
+{'butter milk'} --> {'whole milk'}
+{'root vegetables'} --> {'whole milk'}
+{'hamburger meat'} --> {'whole milk'}
+{'whipped/sour cream'} --> {'whole milk'}
+{'domestic eggs'} --> {'whole milk'}
+{'hard cheese'} --> {'whole milk'}
+{'ham'} --> {'whole milk'}
+{'oil'} --> {'whole milk'}
+{'frozen vegetables'} --> {'whole milk'}
+{'sliced cheese'} --> {'whole milk'}
+{'chicken'} --> {'other vegetables'}
+{'root vegetables'} --> {'other vegetables'}
+{'hamburger meat'} --> {'other vegetables'}
+{'whipped/sour cream'} --> {'other vegetables'}
+{'onions'} --> {'other vegetables'}
+{'citrus fruit', 'yogurt'} --> {'whole milk'}
+{'citrus fruit', 'whole milk'} --> {'other vegetables'}
+{'citrus fruit', 'other vegetables'} --> {'whole milk'}
+{'citrus fruit', 'root vegetables'} --> {'other vegetables'}
+{'yogurt', 'tropical fruit'} --> {'whole milk'}
+{'yogurt', 'tropical fruit'} --> {'other vegetables'}
+{'whole milk', 'tropical fruit'} --> {'other vegetables'}
+{'tropical fruit', 'other vegetables'} --> {'whole milk'}
+{'tropical fruit', 'root vegetables'} --> {'whole milk'}
+{'tropical fruit', 'root vegetables'} --> {'other vegetables'}
+{'rolls/buns', 'tropical fruit'} --> {'whole milk'}
+{'yogurt', 'other vegetables'} --> {'whole milk'}
+{'yogurt', 'curd'} --> {'whole milk'}
+{'yogurt', 'root vegetables'} --> {'whole milk'}
+{'yogurt', 'root vegetables'} --> {'other vegetables'}
+{'rolls/buns', 'yogurt'} --> {'whole milk'}
+{'whipped/sour cream', 'yogurt'} --> {'whole milk'}
+{'whipped/sour cream', 'yogurt'} --> {'other vegetables'}
+{'pip fruit', 'whole milk'} --> {'other vegetables'}
+{'pip fruit', 'other vegetables'} --> {'whole milk'}
+{'fruit/vegetable juice', 'other vegetables'} --> {'whole milk'}
+{'other vegetables', 'pastry'} --> {'whole milk'}
+{'whole milk', 'root vegetables'} --> {'other vegetables'}
+{'root vegetables', 'other vegetables'} --> {'whole milk'}
+{'whole milk', 'pork'} --> {'other vegetables'}
+{'pork', 'other vegetables'} --> {'whole milk'}
+{'whole milk', 'domestic eggs'} --> {'other vegetables'}
+{'other vegetables', 'domestic eggs'} --> {'whole milk'}
+{'butter', 'whole milk'} --> {'other vegetables'}
+{'butter', 'other vegetables'} --> {'whole milk'}
+{'rolls/buns', 'other vegetables'} --> {'whole milk'}
+{'rolls/buns', 'root vegetables'} --> {'whole milk'}
+{'bottled water', 'other vegetables'} --> {'whole milk'}
+{'soda', 'other vegetables'} --> {'whole milk'}
+{'whipped/sour cream', 'whole milk'} --> {'other vegetables'}
+{'whipped/sour cream', 'other vegetables'} --> {'whole milk'}
+{'rolls/buns', 'root vegetables'} --> {'other vegetables'}
