@@ -23,8 +23,8 @@ for i in range(0,9835):
 
 frequent = []     #Temporary list to store frequent itemsets
 candidate = []    #Temporary list toStore candidate itemsets during apriori
-support = 0.05  #minimum support 
-confidence = 0.8  #minimum confidence
+support = 0.1  #minimum support 
+confidence = 0.1  #minimum confidence
 
 for key in dic.keys():
     candidate.append(key)

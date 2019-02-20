@@ -1,0 +1,16 @@
+Frequent datasets and Association Rule Mining using Apriori and FP Growth algorithms
+
+List of files:
+groceries.csv:input flie
+apriori.py
+FPGrowthalgo.py
+
+Dataset:
+Input a path of a csv file into pandas data frame
+
+How To use:
+To execute the above codes, run the following command:
+>python apriori.py
+>python FPGrowthAlgo.py
+
+The output of this exection prints the frequent itemsets and association rules of the corresponding algorithms.
