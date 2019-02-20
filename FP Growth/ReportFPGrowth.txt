@@ -1,9 +1,0 @@
-1. Importing the dataset using CSV reader from pandas library.
-2. Assigning threshold support and calculating minimum support count from it.
-3. Finding frequency of each item in the transactions.
-4. Removing all items which have frequency less than the min. support count.
-5. Ordering remaining items in descending order of frequencies.
-6. Removing all non-supported items from each transaction and ordering remaining items in the above 
-    defined order.
-7. Inserting all transactions into the FP tree.
-8. Mining for frequent itemsets from the FP tree.

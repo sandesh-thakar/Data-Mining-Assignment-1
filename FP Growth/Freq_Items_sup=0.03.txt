@@ -1,0 +1,63 @@
+('sugar',) : 333.0
+('salty snack',) : 372.0
+('cream cheese',) : 390.0
+('beef',) : 516.0
+('margarine',) : 576.0
+('white bread',) : 414.0
+('butter',) : 545.0
+('dessert',) : 365.0
+('specialty chocolate',) : 299.0
+('coffee',) : 571.0
+('frankfurter',) : 580.0
+('brown bread',) : 638.0
+('pip fruit',) : 744.0
+('newspapers',) : 785.0
+('onions',) : 305.0
+('berries',) : 327.0
+('hamburger meat',) : 327.0
+('chocolate',) : 488.0
+('pork',) : 567.0
+('long life bakery product',) : 368.0
+('waffles',) : 378.0
+('whipped/sour cream',) : 705.0
+('UHT-milk',) : 329.0
+('frozen vegetables',) : 473.0
+('napkins',) : 515.0
+('bottled beer',) : 792.0
+('canned beer',) : 764.0
+('curd',) : 524.0
+('domestic eggs',) : 624.0
+('fruit/vegetable juice',) : 711.0
+('hygiene articles',) : 324.0
+('chicken',) : 422.0
+('citrus fruit',) : 814.0
+('pastry',) : 875.0
+('sausage',) : 924.0
+('shopping bags',) : 969.0
+('tropical fruit',) : 1032.0
+('root vegetables',) : 1072.0
+('bottled water',) : 1087.0
+('yogurt',) : 1372.0
+('pip fruit', 'whole milk') : 296.0
+('whipped/sour cream', 'whole milk') : 317.0
+('citrus fruit', 'whole milk') : 300.0
+('pastry', 'whole milk') : 327.0
+('tropical fruit', 'whole milk') : 416.0
+('other vegetables', 'tropical fruit') : 353.0
+('root vegetables', 'whole milk') : 481.0
+('other vegetables', 'root vegetables') : 466.0
+('bottled water', 'whole milk') : 338.0
+('whole milk', 'yogurt') : 551.0
+('other vegetables', 'yogurt') : 427.0
+('soda',) : 1715.0
+('soda', 'whole milk') : 394.0
+('other vegetables', 'soda') : 322.0
+('rolls/buns', 'sausage') : 301.0
+('rolls/buns', 'yogurt') : 338.0
+('rolls/buns', 'soda') : 377.0
+('rolls/buns',) : 1809.0
+('rolls/buns', 'whole milk') : 557.0
+('other vegetables', 'rolls/buns') : 419.0
+('other vegetables',) : 1903.0
+('other vegetables', 'whole milk') : 736.0
+('whole milk',) : 2513.0

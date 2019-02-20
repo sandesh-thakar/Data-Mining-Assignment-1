@@ -1,4 +1,0 @@
-('whole milk', 'other vegetables') : 14.966954753431622
-('whole milk',) : 25.551601423487547
-('rolls/buns',) : 10.259278088459583
-('other vegetables',) : 11.86578546009151

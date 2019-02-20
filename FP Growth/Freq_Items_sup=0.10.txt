@@ -1,0 +1,8 @@
+('tropical fruit',) : 1032.0
+('root vegetables',) : 1072.0
+('bottled water',) : 1087.0
+('yogurt',) : 1372.0
+('soda',) : 1715.0
+('rolls/buns',) : 1809.0
+('other vegetables',) : 1903.0
+('whole milk',) : 2513.0

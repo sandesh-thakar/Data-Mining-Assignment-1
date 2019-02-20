@@ -1,0 +1,31 @@
+('beef',) : 516.0
+('margarine',) : 576.0
+('butter',) : 545.0
+('coffee',) : 571.0
+('frankfurter',) : 580.0
+('brown bread',) : 638.0
+('pip fruit',) : 744.0
+('newspapers',) : 785.0
+('pork',) : 567.0
+('whipped/sour cream',) : 705.0
+('napkins',) : 515.0
+('bottled beer',) : 792.0
+('canned beer',) : 764.0
+('curd',) : 524.0
+('domestic eggs',) : 624.0
+('fruit/vegetable juice',) : 711.0
+('citrus fruit',) : 814.0
+('pastry',) : 875.0
+('sausage',) : 924.0
+('shopping bags',) : 969.0
+('tropical fruit',) : 1032.0
+('root vegetables',) : 1072.0
+('bottled water',) : 1087.0
+('yogurt',) : 1372.0
+('whole milk', 'yogurt') : 551.0
+('soda',) : 1715.0
+('rolls/buns',) : 1809.0
+('rolls/buns', 'whole milk') : 557.0
+('other vegetables',) : 1903.0
+('other vegetables', 'whole milk') : 736.0
+('whole milk',) : 2513.0

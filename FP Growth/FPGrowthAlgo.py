@@ -48,8 +48,6 @@ def dfs(node,current_list,support_count: int,total_elements: float):
         current_list.pop()
     if len(current_list)>0:
         val = node.value
-        support_value = val/total_elements
-        support_value = support_value*100
         n = len(current_list)
         for i in range(0,(1<<n)):
             if (i&((1<<(n-1))))==0:
@@ -58,11 +56,12 @@ def dfs(node,current_list,support_count: int,total_elements: float):
             for j in range(0,n):
                 if (i&(1<<j)):
                     temp_list.append(current_list[j])
+            temp_list.sort()
             tmp = tuple(temp_list)
             if tmp in frequent_itemsets:
-                frequent_itemsets[tmp] = frequent_itemsets[tmp]+support_value
+                frequent_itemsets[tmp] = frequent_itemsets[tmp]+val
             else:
-                frequent_itemsets[tmp] = support_value
+                frequent_itemsets[tmp] = val
                 
 
 if __name__ == "__main__":
@@ -72,7 +71,7 @@ if __name__ == "__main__":
     
     #Assigning support and finding support count
     
-    support = 0.03
+    support = 0.10
     support_count = support * dataset.shape[0]
     support_count = mt.ceil(support_count) 
     
@@ -132,14 +131,47 @@ if __name__ == "__main__":
     dfs(root,current_list,support_count,dataset.shape[0])
     temp = list(frequent_itemsets.keys())
     for i in temp:
-        if frequent_itemsets[i]<support*100:
+        if frequent_itemsets[i]<support_count:
             frequent_itemsets.pop(i)
     
-    #Writing mined itemsets to Excel sheet
+    #Maximal frequent itemsets
     
-    f = open("support=0.03.txt","w");
+    maximal_frequent_itemsets = []
+    frequent_keys_itr = frequent_itemsets.keys()
+    for i in frequent_keys_itr:
+        A = set(i)
+        flag = True
+        for j in frequent_keys_itr:
+            if i == j:
+                continue
+            B = set(j)
+            if A.issubset(B):
+                flag = False
+                break
+        if flag == True:
+            maximal_frequent_itemsets.append(i)
+            
+    # Closed frequent itemsets
+    
+    closed_frequent_itemsets = []
+    for i in frequent_keys_itr:
+        A = set(i)
+        flag = True
+        for j in frequent_keys_itr:
+            if i == j:
+                continue
+            B = set(j)
+            if A.issubset(B) and frequent_itemsets[i] == frequent_itemsets[j]:
+                flag = False
+                break
+        if flag == True:
+            closed_frequent_itemsets.append(i)
+            
+    #Writing mined itemsets to Txt File
+    
+    f = open("Freq_Items_sup=0.10.txt","w");
     for i in frequent_itemsets:
         f.write(str(tuple(i)) + " : " + str(float(frequent_itemsets[i])))
         f.write("\n")
     f.close()
-        
+    
