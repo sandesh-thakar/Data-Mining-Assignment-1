@@ -23,8 +23,8 @@ for i in range(0,9835):
 
 frequent = []     #Temporary list to store frequent itemsets
 candidate = []    #Temporary list toStore candidate itemsets during apriori
-support = 0.004   #minimum support 
-confidence = 0.6  #minimum confidence
+support = 0.05   #minimum support 
+confidence = 0.3  #minimum confidence
 
 for key in dic.keys():
     candidate.append(key)
@@ -102,28 +102,36 @@ for i in range(0,len(frequent_itemsets)):
         closed_frequent_itemsets.append(frequent_itemsets[i])
 
 
-antecedent = [] #Stores the antecendent of the rules
-consequent = [] #Stoes the consequent of the rules
+temp_antecedent = [] #Stores the antecendent of the rules
+temp_consequent = [] #Stoes the consequent of the rules
 
 #Generating the association rules
-for i in range(0,len(closed_frequent_itemsets)):
-    if(len(closed_frequent_itemsets[i])==1):
+for i in range(0,len(frequent_itemsets)):
+    if(len(frequent_itemsets[i])==1):
         continue
     #print(frequent_itemsets[i])
-    for j in range(1,len(closed_frequent_itemsets[i])):
-        sub = list(combinations(closed_frequent_itemsets[i],j))
+    for j in range(1,len(frequent_itemsets[i])):
+        sub = list(combinations(frequent_itemsets[i],j))
         for k in range(0,len(sub)):
             ant = frozenset(sub[k])
-            con = closed_frequent_itemsets[i] - ant
-            if(dic[closed_frequent_itemsets[i]]/dic[ant] > confidence):
-                antecedent.append(ant)
-                consequent.append(con)
-    
-f = open("Assn_Rules_sup=0.004_conf=0.6.txt","w")            
-
-for i in range(0,len(antecedent)):
-    f.write(str(set(antecedent[i]))+' --> '+str(set(consequent[i])))
-    f.write('\n')
-    
-f.close()
-  
+            con = frequent_itemsets[i] - ant
+            if(dic[frequent_itemsets[i]]/dic[ant] > confidence):
+                temp_antecedent.append(ant)
+                temp_consequent.append(con)
+            
+antecedent = []
+consequent = []            
+            
+#Discarding redundant rules
+for i in range(0,len(temp_antecedent)):
+    flag = 1
+    for j in range(0,len(temp_antecedent)):
+        if(i==j):
+            continue
+        if((temp_antecedent[i].issubset(temp_antecedent[j])) and (temp_consequent[i].issubset(temp_consequent[j]))):
+            flag = 1
+    if(flag):
+        antecedent.append(temp_antecedent[i])
+        consequent.append(temp_consequent[i])
+    else:
+        print(antecedent[i],'->',consequent[i])

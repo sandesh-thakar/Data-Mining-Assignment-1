@@ -1,0 +1,27 @@
+{'citrus fruit'}
+{'margarine'}
+{'tropical fruit'}
+{'coffee'}
+{'pip fruit'}
+{'butter'}
+{'bottled beer'}
+{'bottled water'}
+{'curd'}
+{'beef'}
+{'frankfurter'}
+{'soda'}
+{'fruit/vegetable juice'}
+{'newspapers'}
+{'pastry'}
+{'root vegetables'}
+{'canned beer'}
+{'sausage'}
+{'brown bread'}
+{'shopping bags'}
+{'napkins'}
+{'pork'}
+{'whipped/sour cream'}
+{'domestic eggs'}
+{'whole milk', 'yogurt'}
+{'whole milk', 'other vegetables'}
+{'whole milk', 'rolls/buns'}
