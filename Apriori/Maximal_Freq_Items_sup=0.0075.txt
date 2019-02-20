@@ -1,0 +1,374 @@
+{'semi-finished bread'}
+{'condensed milk'}
+{'rice'}
+{'liquor (appetizer)'}
+{'potted plants'}
+{'dishes'}
+{'packaged fruit/vegetables'}
+{'specialty bar'}
+{'processed cheese'}
+{'frozen dessert'}
+{'sweet spreads'}
+{'beverages'}
+{'spread cheese'}
+{'misc. beverages'}
+{'turkey'}
+{'pickled vegetables'}
+{'chewing gum'}
+{'chocolate marshmallow'}
+{'ice cream'}
+{'canned fish'}
+{'seasonal products'}
+{'red/blush wine'}
+{'frozen potato products'}
+{'candles'}
+{'flower (seeds)'}
+{'salt'}
+{'canned vegetables'}
+{'white wine'}
+{'photo/film'}
+{'pasta'}
+{'cling film/bags'}
+{'Instant food products'}
+{'cake bar'}
+{'specialty cheese'}
+{'dog food'}
+{'frozen fish'}
+{'dish cleaner'}
+{'mustard'}
+{'house keeping products'}
+{'liquor'}
+{'pet care'}
+{'roll products'}
+{'mayonnaise'}
+{'citrus fruit', 'margarine'}
+{'citrus fruit', 'pip fruit'}
+{'butter', 'citrus fruit'}
+{'citrus fruit', 'rolls/buns'}
+{'bottled water', 'citrus fruit'}
+{'citrus fruit', 'beef'}
+{'soda', 'citrus fruit'}
+{'fruit/vegetable juice', 'citrus fruit'}
+{'citrus fruit', 'newspapers'}
+{'citrus fruit', 'pastry'}
+{'citrus fruit', 'sausage'}
+{'citrus fruit', 'brown bread'}
+{'citrus fruit', 'shopping bags'}
+{'napkins', 'citrus fruit'}
+{'citrus fruit', 'whipped/sour cream'}
+{'domestic eggs', 'citrus fruit'}
+{'tropical fruit', 'margarine'}
+{'yogurt', 'margarine'}
+{'pip fruit', 'margarine'}
+{'bottled water', 'margarine'}
+{'soda', 'margarine'}
+{'root vegetables', 'margarine'}
+{'domestic eggs', 'margarine'}
+{'butter', 'tropical fruit'}
+{'tropical fruit', 'bottled beer'}
+{'tropical fruit', 'white bread'}
+{'tropical fruit', 'chocolate'}
+{'curd', 'tropical fruit'}
+{'tropical fruit', 'beef'}
+{'tropical fruit', 'frankfurter'}
+{'fruit/vegetable juice', 'tropical fruit'}
+{'tropical fruit', 'newspapers'}
+{'tropical fruit', 'pastry'}
+{'tropical fruit', 'sausage'}
+{'tropical fruit', 'brown bread'}
+{'tropical fruit', 'shopping bags'}
+{'napkins', 'tropical fruit'}
+{'tropical fruit', 'pork'}
+{'domestic eggs', 'tropical fruit'}
+{'tropical fruit', 'frozen vegetables'}
+{'coffee', 'yogurt'}
+{'yogurt', 'cream cheese'}
+{'yogurt', 'long life bakery product'}
+{'yogurt', 'bottled beer'}
+{'white bread', 'yogurt'}
+{'chocolate', 'yogurt'}
+{'yogurt', 'beef'}
+{'yogurt', 'frankfurter'}
+{'yogurt', 'chicken'}
+{'newspapers', 'yogurt'}
+{'yogurt', 'butter milk'}
+{'waffles', 'yogurt'}
+{'yogurt', 'brown bread'}
+{'shopping bags', 'yogurt'}
+{'napkins', 'yogurt'}
+{'yogurt', 'pork'}
+{'berries', 'yogurt'}
+{'yogurt', 'dessert'}
+{'frozen vegetables', 'yogurt'}
+{'yogurt', 'sliced cheese'}
+{'coffee', 'whole milk'}
+{'coffee', 'other vegetables'}
+{'coffee', 'rolls/buns'}
+{'soda', 'coffee'}
+{'coffee', 'shopping bags'}
+{'whole milk', 'cream cheese'}
+{'whole milk', 'long life bakery product'}
+{'whole milk', 'white bread'}
+{'whole milk', 'chocolate'}
+{'whole milk', 'flour'}
+{'whole milk', 'sugar'}
+{'whole milk', 'butter milk'}
+{'whole milk', 'detergent'}
+{'salty snack', 'whole milk'}
+{'waffles', 'whole milk'}
+{'whole milk', 'candy'}
+{'whole milk', 'canned beer'}
+{'whole milk', 'hamburger meat'}
+{'whole milk', 'hygiene articles'}
+{'napkins', 'whole milk'}
+{'berries', 'whole milk'}
+{'whole milk', 'dessert'}
+{'whole milk', 'hard cheese'}
+{'whole milk', 'cat food'}
+{'whole milk', 'ham'}
+{'whole milk', 'baking powder'}
+{'whole milk', 'oil'}
+{'whole milk', 'specialty chocolate'}
+{'frozen meals', 'whole milk'}
+{'whole milk', 'onions'}
+{'whole milk', 'herbs'}
+{'whole milk', 'sliced cheese'}
+{'whole milk', 'soft cheese'}
+{'whole milk', 'meat'}
+{'rolls/buns', 'pip fruit'}
+{'bottled water', 'pip fruit'}
+{'curd', 'pip fruit'}
+{'soda', 'pip fruit'}
+{'fruit/vegetable juice', 'pip fruit'}
+{'pip fruit', 'pastry'}
+{'sausage', 'pip fruit'}
+{'pip fruit', 'brown bread'}
+{'shopping bags', 'pip fruit'}
+{'pip fruit', 'whipped/sour cream'}
+{'domestic eggs', 'pip fruit'}
+{'cream cheese', 'other vegetables'}
+{'rolls/buns', 'cream cheese'}
+{'root vegetables', 'cream cheese'}
+{'other vegetables', 'long life bakery product'}
+{'UHT-milk', 'other vegetables'}
+{'white bread', 'other vegetables'}
+{'chocolate', 'other vegetables'}
+{'sugar', 'other vegetables'}
+{'other vegetables', 'butter milk'}
+{'salty snack', 'other vegetables'}
+{'waffles', 'other vegetables'}
+{'canned beer', 'other vegetables'}
+{'other vegetables', 'hamburger meat'}
+{'hygiene articles', 'other vegetables'}
+{'napkins', 'other vegetables'}
+{'berries', 'other vegetables'}
+{'grapes', 'other vegetables'}
+{'dessert', 'other vegetables'}
+{'hard cheese', 'other vegetables'}
+{'ham', 'other vegetables'}
+{'oil', 'other vegetables'}
+{'frozen meals', 'other vegetables'}
+{'other vegetables', 'onions'}
+{'herbs', 'other vegetables'}
+{'other vegetables', 'sliced cheese'}
+{'meat', 'other vegetables'}
+{'rolls/buns', 'long life bakery product'}
+{'soda', 'long life bakery product'}
+{'butter', 'rolls/buns'}
+{'butter', 'bottled water'}
+{'butter', 'soda'}
+{'butter', 'fruit/vegetable juice'}
+{'butter', 'pastry'}
+{'butter', 'sausage'}
+{'butter', 'whipped/sour cream'}
+{'butter', 'domestic eggs'}
+{'rolls/buns', 'bottled beer'}
+{'rolls/buns', 'chocolate'}
+{'rolls/buns', 'curd'}
+{'rolls/buns', 'beef'}
+{'rolls/buns', 'frankfurter'}
+{'rolls/buns', 'chicken'}
+{'fruit/vegetable juice', 'rolls/buns'}
+{'rolls/buns', 'butter milk'}
+{'waffles', 'rolls/buns'}
+{'rolls/buns', 'canned beer'}
+{'rolls/buns', 'brown bread'}
+{'rolls/buns', 'shopping bags'}
+{'rolls/buns', 'hamburger meat'}
+{'napkins', 'rolls/buns'}
+{'rolls/buns', 'pork'}
+{'domestic eggs', 'rolls/buns'}
+{'rolls/buns', 'frozen vegetables'}
+{'rolls/buns', 'sliced cheese'}
+{'soda', 'UHT-milk'}
+{'bottled water', 'bottled beer'}
+{'soda', 'bottled beer'}
+{'root vegetables', 'bottled beer'}
+{'sausage', 'bottled beer'}
+{'soda', 'white bread'}
+{'white bread', 'root vegetables'}
+{'bottled water', 'fruit/vegetable juice'}
+{'bottled water', 'newspapers'}
+{'bottled water', 'pastry'}
+{'bottled water', 'root vegetables'}
+{'bottled water', 'canned beer'}
+{'bottled water', 'sausage'}
+{'bottled water', 'brown bread'}
+{'bottled water', 'shopping bags'}
+{'bottled water', 'napkins'}
+{'bottled water', 'whipped/sour cream'}
+{'bottled water', 'domestic eggs'}
+{'soda', 'chocolate'}
+{'chocolate', 'pastry'}
+{'shopping bags', 'chocolate'}
+{'soda', 'curd'}
+{'curd', 'pastry'}
+{'curd', 'root vegetables'}
+{'curd', 'sausage'}
+{'curd', 'whipped/sour cream'}
+{'soda', 'beef'}
+{'pork', 'beef'}
+{'soda', 'frankfurter'}
+{'pastry', 'frankfurter'}
+{'root vegetables', 'frankfurter'}
+{'sausage', 'frankfurter'}
+{'shopping bags', 'frankfurter'}
+{'soda', 'chicken'}
+{'soda', 'fruit/vegetable juice'}
+{'soda', 'newspapers'}
+{'soda', 'salty snack'}
+{'soda', 'waffles'}
+{'soda', 'candy'}
+{'soda', 'canned beer'}
+{'soda', 'brown bread'}
+{'soda', 'shopping bags'}
+{'soda', 'napkins'}
+{'soda', 'pork'}
+{'soda', 'whipped/sour cream'}
+{'soda', 'dessert'}
+{'soda', 'domestic eggs'}
+{'soda', 'frozen vegetables'}
+{'root vegetables', 'chicken'}
+{'fruit/vegetable juice', 'newspapers'}
+{'fruit/vegetable juice', 'pastry'}
+{'fruit/vegetable juice', 'root vegetables'}
+{'fruit/vegetable juice', 'sausage'}
+{'fruit/vegetable juice', 'brown bread'}
+{'fruit/vegetable juice', 'shopping bags'}
+{'fruit/vegetable juice', 'whipped/sour cream'}
+{'fruit/vegetable juice', 'domestic eggs'}
+{'fruit/vegetable juice', 'frozen vegetables'}
+{'newspapers', 'pastry'}
+{'newspapers', 'root vegetables'}
+{'sausage', 'newspapers'}
+{'newspapers', 'brown bread'}
+{'root vegetables', 'pastry'}
+{'sausage', 'pastry'}
+{'pastry', 'brown bread'}
+{'shopping bags', 'pastry'}
+{'whipped/sour cream', 'pastry'}
+{'domestic eggs', 'pastry'}
+{'root vegetables', 'brown bread'}
+{'shopping bags', 'root vegetables'}
+{'napkins', 'root vegetables'}
+{'pork', 'root vegetables'}
+{'frozen vegetables', 'root vegetables'}
+{'root vegetables', 'onions'}
+{'shopping bags', 'canned beer'}
+{'sausage', 'brown bread'}
+{'shopping bags', 'sausage'}
+{'sausage', 'whipped/sour cream'}
+{'domestic eggs', 'sausage'}
+{'shopping bags', 'brown bread'}
+{'shopping bags', 'whipped/sour cream'}
+{'domestic eggs', 'shopping bags'}
+{'whipped/sour cream', 'pork'}
+{'berries', 'whipped/sour cream'}
+{'domestic eggs', 'whipped/sour cream'}
+{'whipped/sour cream', 'frozen vegetables'}
+{'citrus fruit', 'tropical fruit', 'whole milk'}
+{'citrus fruit', 'tropical fruit', 'other vegetables'}
+{'citrus fruit', 'yogurt', 'whole milk'}
+{'citrus fruit', 'yogurt', 'other vegetables'}
+{'citrus fruit', 'other vegetables', 'whole milk'}
+{'citrus fruit', 'root vegetables', 'whole milk'}
+{'citrus fruit', 'root vegetables', 'other vegetables'}
+{'whole milk', 'margarine', 'other vegetables'}
+{'whole milk', 'margarine', 'rolls/buns'}
+{'tropical fruit', 'yogurt', 'root vegetables'}
+{'whole milk', 'tropical fruit', 'pip fruit'}
+{'whole milk', 'tropical fruit', 'rolls/buns'}
+{'whole milk', 'tropical fruit', 'root vegetables'}
+{'whole milk', 'tropical fruit', 'whipped/sour cream'}
+{'tropical fruit', 'pip fruit', 'other vegetables'}
+{'tropical fruit', 'other vegetables', 'root vegetables'}
+{'tropical fruit', 'whipped/sour cream', 'other vegetables'}
+{'rolls/buns', 'tropical fruit', 'yogurt'}
+{'rolls/buns', 'tropical fruit', 'other vegetables'}
+{'bottled water', 'whole milk', 'tropical fruit'}
+{'soda', 'whole milk', 'tropical fruit'}
+{'whole milk', 'pip fruit', 'yogurt'}
+{'whole milk', 'yogurt', 'rolls/buns'}
+{'whole milk', 'curd', 'yogurt'}
+{'whole milk', 'yogurt', 'pastry'}
+{'whole milk', 'sausage', 'yogurt'}
+{'whole milk', 'whipped/sour cream', 'yogurt'}
+{'pip fruit', 'yogurt', 'other vegetables'}
+{'butter', 'whole milk', 'yogurt'}
+{'rolls/buns', 'yogurt', 'other vegetables'}
+{'bottled water', 'whole milk', 'yogurt'}
+{'bottled water', 'yogurt', 'other vegetables'}
+{'soda', 'whole milk', 'yogurt'}
+{'soda', 'yogurt', 'other vegetables'}
+{'soda', 'rolls/buns', 'yogurt'}
+{'fruit/vegetable juice', 'whole milk', 'yogurt'}
+{'fruit/vegetable juice', 'yogurt', 'other vegetables'}
+{'sausage', 'yogurt', 'other vegetables'}
+{'whipped/sour cream', 'yogurt', 'other vegetables'}
+{'domestic eggs', 'whole milk', 'yogurt'}
+{'whole milk', 'pip fruit', 'other vegetables'}
+{'whole milk', 'pip fruit', 'root vegetables'}
+{'whole milk', 'other vegetables', 'rolls/buns'}
+{'whole milk', 'other vegetables', 'bottled beer'}
+{'whole milk', 'curd', 'other vegetables'}
+{'whole milk', 'beef', 'other vegetables'}
+{'whole milk', 'other vegetables', 'frankfurter'}
+{'whole milk', 'other vegetables', 'chicken'}
+{'whole milk', 'newspapers', 'other vegetables'}
+{'whole milk', 'other vegetables', 'pastry'}
+{'whole milk', 'sausage', 'other vegetables'}
+{'whole milk', 'other vegetables', 'brown bread'}
+{'whole milk', 'shopping bags', 'other vegetables'}
+{'pork', 'whole milk', 'other vegetables'}
+{'whole milk', 'whipped/sour cream', 'other vegetables'}
+{'whole milk', 'frozen vegetables', 'other vegetables'}
+{'butter', 'whole milk', 'other vegetables'}
+{'butter', 'whole milk', 'root vegetables'}
+{'whole milk', 'newspapers', 'rolls/buns'}
+{'whole milk', 'pastry', 'rolls/buns'}
+{'whole milk', 'root vegetables', 'rolls/buns'}
+{'whole milk', 'sausage', 'rolls/buns'}
+{'whole milk', 'whipped/sour cream', 'rolls/buns'}
+{'bottled water', 'whole milk', 'other vegetables'}
+{'bottled water', 'whole milk', 'rolls/buns'}
+{'bottled water', 'whole milk', 'soda'}
+{'whole milk', 'root vegetables', 'beef'}
+{'soda', 'whole milk', 'other vegetables'}
+{'soda', 'whole milk', 'rolls/buns'}
+{'soda', 'whole milk', 'pastry'}
+{'soda', 'whole milk', 'root vegetables'}
+{'fruit/vegetable juice', 'whole milk', 'other vegetables'}
+{'whole milk', 'sausage', 'root vegetables'}
+{'whole milk', 'whipped/sour cream', 'root vegetables'}
+{'domestic eggs', 'whole milk', 'other vegetables'}
+{'domestic eggs', 'whole milk', 'root vegetables'}
+{'root vegetables', 'pip fruit', 'other vegetables'}
+{'rolls/buns', 'root vegetables', 'other vegetables'}
+{'rolls/buns', 'sausage', 'other vegetables'}
+{'soda', 'rolls/buns', 'other vegetables'}
+{'soda', 'root vegetables', 'other vegetables'}
+{'root vegetables', 'beef', 'other vegetables'}
+{'root vegetables', 'whipped/sour cream', 'other vegetables'}
+{'soda', 'rolls/buns', 'sausage'}
+{'whole milk', 'tropical fruit', 'yogurt', 'other vegetables'}
+{'whole milk', 'yogurt', 'root vegetables', 'other vegetables'}
