@@ -6,8 +6,6 @@
 
 import math as mt
 import pandas as pd
-import csv
-
 #List of frequent itemsets
 
 frequent_itemsets = {}
@@ -25,13 +23,13 @@ class FPTreeNode(object):
 def add(root,record):
     itr = root
     for i in record:
-        found = False
+        occur = False
         for j in itr.children:
             if j.name == i:
                 itr=j
-                found = True
+                occur=True
                 break
-        if found == True:
+        if occur == True:
             itr.value = itr.value+1
         else:
             newNode = FPTreeNode(i,1)
@@ -45,11 +43,10 @@ def dfs(node,current_list,support_count: int,total_elements: float):
         if node.name not in current_list:
             current_list.append(node.name)
     for i in node.children:
-        if i.value >= support_count:
-            current_list.append(i.name)
-            dfs(i,current_list,support_count,total_elements)
-            current_list.pop()
-    if len(current_list)!=0:
+        current_list.append(i.name)
+        dfs(i,current_list,support_count,total_elements)
+        current_list.pop()
+    if len(current_list)>0:
         val = node.value
         support_value = val/total_elements
         support_value = support_value*100
@@ -61,8 +58,7 @@ def dfs(node,current_list,support_count: int,total_elements: float):
             for j in range(0,n):
                 if (i&(1<<j)):
                     temp_list.append(current_list[j])
-            temp_list.sort()
-            tmp = tuple(current_list)
+            tmp = tuple(temp_list)
             if tmp in frequent_itemsets:
                 frequent_itemsets[tmp] = frequent_itemsets[tmp]+support_value
             else:
@@ -76,7 +72,7 @@ if __name__ == "__main__":
     
     #Assigning support and finding support count
     
-    support = 0.01
+    support = 0.03
     support_count = support * dataset.shape[0]
     support_count = mt.ceil(support_count) 
     
@@ -134,12 +130,16 @@ if __name__ == "__main__":
     
     current_list = []
     dfs(root,current_list,support_count,dataset.shape[0])
+    temp = list(frequent_itemsets.keys())
+    for i in temp:
+        if frequent_itemsets[i]<support*100:
+            frequent_itemsets.pop(i)
     
     #Writing mined itemsets to Excel sheet
     
-    with open("support10.csv","w") as output:
-        writer = csv.writer(output)
-        writer.writerow(["Frequent Itemset", "Support Percent"])
-        for key,value in frequent_itemsets.items():
-            writer.writerow([key,value])
+    f = open("support=0.03.txt","w");
+    for i in frequent_itemsets:
+        f.write(str(tuple(i)) + " : " + str(float(frequent_itemsets[i])))
+        f.write("\n")
+    f.close()
         
